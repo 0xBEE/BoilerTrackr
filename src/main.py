@@ -12,7 +12,6 @@ from discord import Interaction
 
 
 class Found(discord.ui.Modal, title='Found Item'):
-    # what we want.
     itemName = discord.ui.TextInput(
         label='What item did you find?',
         placeholder='Item Name',
@@ -28,10 +27,6 @@ class Found(discord.ui.Modal, title='Found Item'):
         placeholder='Item Location',
     )
 
-    # This is a longer, paragraph style input, where user can submit feedback
-    # Unlike the name, it is not required. If filled out, however, it will
-    # only accept a maximum of 300 characters, as denoted by the
-    # `max_length=300` kwarg.
     addInfo = discord.ui.TextInput(
         label='Include any additional information (optional)',
         style=discord.TextStyle.long,
@@ -114,7 +109,6 @@ async def lost(interaction: Interaction):
             embed = discord.Embed(color=0x00c7fc,
                                   timestamp=datetime.strptime(row["timePosted"], '%Y-%m-%d %H:%M:%S.%f'))
             embed.set_footer(text=f"Reported by: {user.name}", icon_url=user.avatar.url)
-            # TODO: implement check on whether image link is valid
             if row["imageLink"] != "":
                 embed.set_thumbnail(url=row["imageLink"])
             embed.add_field(name="What", value=row["what"], inline=True)
