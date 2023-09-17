@@ -15,4 +15,4 @@
 
 As a "[Hello World 2023](https://hello-world-2023-purdue.devpost.com/)" 24-hour hackathon project, the bot was coded and designed by Jean Gonzalez and Heran Mei.
 
-[Hello World 2023 Banner](https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/585/418/datas/full_width.png "Hello World 2023")
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/585/418/datas/full_width.png" alt="Hello World 2023 Banner"/>
