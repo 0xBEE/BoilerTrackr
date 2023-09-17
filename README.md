@@ -1,6 +1,6 @@
 # BoilerTrackr - Lost and Found Discord Bot for Purdue
 
-![BoilerTrackr Image](/images/boilertrackr-transparent.png)
+<img src="/images/boilertrackr-transparent.png" alt="BoilerTrackr Logo" width="256"/>
 
 **BoilerTrackr** is a Discord bot designed to help **Purdue University** students and community members facilitate the search for lost items on campus. With a few basic commands, you can easily submit any items found on campus, or search through our database to efficiently find your belongings to claim them.
 
