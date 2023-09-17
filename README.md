@@ -9,8 +9,10 @@
 *   ```/found```: Use this command to submit a lost item to the BoilerTrackr database. Include details like the item's name, description, and the location where it was found. This information will be stored for others to search and claim if they have lost a similar item.
 *   ```/lost```: Use this command to view the currently found items stored in the BoilerTrackr database. You can browse through the list to see what other people have found and claim them if it's yours.
 
-**BoilerTrackr** is built using Python, using Discord's API, namely "aiohttp", "aiosqlite", "discord.py" and "discord.py-pagination". While data was originally planned to be stored in a SQLite-based database, we decided to store information locally using a ```.csv``` file as a proof of concept.
+**BoilerTrackr** is built using Python, using Discord's API, namely "discord.py" and "discord.py-pagination". While data was originally planned to be stored in a SQLite-based database, we decided to store information locally using a ```.csv``` file as a proof of concept.
 
 ## Credits
 
-As a "[Hello World 2023](https://www.hwhack2023.com/)" 24-hour hackathon project, the bot was coded and designed by Jean Gonzalez and Heran Mei.
+As a "[Hello World 2023](https://hello-world-2023-purdue.devpost.com/)" 24-hour hackathon project, the bot was coded and designed by Jean Gonzalez and Heran Mei.
+
+[Hello World 2023 Banner](https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/585/418/datas/full_width.png "Hello World 2023")

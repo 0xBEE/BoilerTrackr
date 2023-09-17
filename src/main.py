@@ -59,6 +59,8 @@ async def on_ready():
     await bot.tree.sync()
     print('Logged in as {0.user}'.format(bot))
 
+    await bot.change_presence(status=discord.Status.idle, activity=discord.Game('Finding your items...'))
+
 
 @bot.command()
 async def sync(ctx):
