@@ -1,4 +1,2 @@
-aiohttp
-aiosqlite
 discord.py
 discord.py-pagination
